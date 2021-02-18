@@ -14,7 +14,7 @@ namespace Umbraco.Web.Controllers
     [MemberAuthorize]
     public class UmbProfileController : SurfaceController
     {
-        public UmbProfileController()
+        public UmbProfile Controller()
         { }
 
         public UmbProfileController(IUmbracoContextAccessor umbracoContextAccessor, IUmbracoDatabaseFactory databaseFactory, ServiceContext services, AppCaches appCaches, ILogger logger, IProfilingLogger profilingLogger, UmbracoHelper umbracoHelper)
